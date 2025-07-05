@@ -1,0 +1,12 @@
+Package: cvir
+Title: Content Validity Index (CVI) Calculation Tools
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jesica", "Formoso", , "jesica.formoso@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-3062-4036"))
+Description: Provides functions to calculate the Content Validity Index (CVI) for individual items and entire scales based on expert ratings. Includes both item-level CVI calculations and scale-level indices using average and universal agreement methods. Useful for evaluating the content validity of assessment instruments in educational, psychological, or health research.Based on Yusoff (2019), https://doi.org/10.21315/eimj2019.11.2.6
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
