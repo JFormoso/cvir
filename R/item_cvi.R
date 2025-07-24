@@ -1,7 +1,8 @@
 item_cvi <- function(data = NULL, expert_id = NULL, high_values = 1) {
   # Basic checks
   if (is.null(data) || is.null(expert_id)) {
-    stop("You must provide a dataframe and the name of the column that identifies the experts.")
+    stop("You must provide a dataframe and the name of the column that
+         identifies the experts.")
   }
 
   # Check if the expert_id column exists in the dataframe
